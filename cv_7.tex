@@ -19,29 +19,44 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
-\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+% Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, 
+% legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[11pt,letterpaper,sans]{moderncv}
 
-\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+% CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 
+% 'banking'
+\moderncvstyle{classic}
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+% CV color - options include: 'blue' (default), 'orange', 'green', 'red', 
+% 'purple', 'grey' and 'black'
+\moderncvcolor{black} 
 
-\usepackage[scale=0.75]{geometry} % Reduce document margins
-%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+% Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{lipsum} 
 
-%----------------------------------------------------------------------------------------
+% Reduce document margins
+\usepackage[scale=0.75]{geometry}
+
+% Uncomment to change the width of the dates column
+%\setlength{\hintscolumnwidth}{3cm} 
+
+% For the 'classic' style, uncomment to adjust the width of the space allocated 
+% to your name
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+%------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \firstname{Sagun} % Your first name
 \familyname{Khatri} % Your last name
 
-% All information in this block is optional, comment out any lines you don't need
+% All information in this block is optional, comment out any 
+% lines you don't need
 \title{Principle Java Developer}
 \address{12800 Harrisglenn Drive Apt \#1534}{Austin, Texas 78753}
 \mobile{(512) 853 0764}
@@ -50,28 +65,31 @@
 \email{sakh1979@gmail.com}
 % \homepage{www.johnsmith.com}
 % \extrainfo{additional information}
-% \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+% The first bracket is the picture height, the second is the thickness of the 
+% frame around the picture (0pt for no frame)
+% \photo[70pt][0.4pt]{pictures/picture} 
 % \quote{"A witty and playful quotation" - John Smith}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \begin{document}
 
 \makecvtitle % Print the CV title
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	OBJECTIVE
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 \section{Objective}
 \cvline{}
-{I would like to use my skills to work with a team to solve the challenges presented
-to us. I strive to learn and grow my skill set on the job and to further innovate 
-on what I work on.}
+{I would like to use my skills to work with a team to solve the challenges 
+presented to us. I strive to learn and grow my skill set on the job and to 
+further innovate on what I work on.}
 
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	SUMMARY
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 \section{Summary}
   \cvlistitem{Proficient in Linux/UNIX environments, shell scripting, Java 
               Enterprise developments, Relational Database Management Systems 
@@ -86,12 +104,13 @@ on what I work on.}
               California, Wisconsin and New Jersey.}
 
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	PUBLICATION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 \section{Publication}
    \cvline{2012}{Khatri, Sagun, 
-   \textsc{\textbf{SCTP Performance Improvement Based On Adaptive Retransmission Time-Out Adjustment}}, 
+   \textsc{\textbf{SCTP Performance Improvement Based On Adaptive 
+   Retransmission Time-Out Adjustment}}, 
    Lambert Academic Publishing, ISBN 978-3846587089}
 
 
@@ -99,26 +118,37 @@ on what I work on.}
 % Technical Skills
 % --------------------------------------------------------------------------
 \section{Technical Skills}
-  \cvline{Languages}{Java, Shell Scripts, HTML, JavaScript, XML, CSS, C, C++, Python, Scala}
-  \cvline{Database}{Oracle, MS-SQL, MySQL}
-  \cvline{Technologies}{Hibernate, Spring, JPA, AJAX, JSP, Servlet, EJB, Structs}
-  \cvline{OS Platforms}{Linux, Mac OS X (Tiger -- Mountain Lion), UNIX, Windows 95 -- Windows 7}
-  \cvline{App. Servers}{JBoss, Apache Tomcat, WebLogic}
-  \cvline{Version Ctrl.}{Git, Perforce, PVCS}
-  \cvline{Build Tool}{Ant, Maven, Make}
-  \cvline{Typesetting}{\LaTeX}
-  \cvline{Application}{Adobe Photoshop, Adobe Dreamweaver, OmniGraffle, OmniGraphSketcher}
-  \cvline{CI Tool}{Hudson}
+  \cvline{Languages}
+         {Java, Shell Scripts, HTML, JavaScript, XML, CSS, C, Python}
+  \cvline{Database}
+         {Oracle, MS-SQL, MySQL}
+  \cvline{Technologies}
+         {Hibernate, Spring, JPA, AJAX, JSP, Servlet, EJB, Structs}
+  \cvline{OS Platforms}
+         {Linux, Mac OS X (Tiger--Mountain Lion), UNIX, Windows 95--Windows 7}
+  \cvline{App. Servers}
+         {JBoss, Apache Tomcat, WebLogic}
+  \cvline{Version Ctrl.}
+         {Git, Perforce, PVCS}
+  \cvline{Build Tool}
+         {Ant, Maven, Make}
+  \cvline{Typesetting}
+         {\LaTeX}
+  \cvline{Application}
+         {Adobe Photoshop, Adobe Dreamweaver, OmniGraffle, OmniGraphSketcher}
+  \cvline{CI Tool}
+         {Hudson}
 
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \section{Experience}
 
   \subsection{Professional Experience}
-     \cventry{2013--Present}{Principle Java Developer}{\textsc{Xerox}}{Austin, TX}{}
+     \cventry{2013--Present}{Principle Java Developer}
+     {\textsc{Xerox}}{Austin, TX}{}
      {\begin{itemize}
          \item Provided technical leadership on projects, mentored junior 
                developers, participated in highly technical enterprise 
@@ -135,17 +165,28 @@ on what I work on.}
                to help deliver systems on schedule and with high quality.
      \end{itemize}}
       
-     \cventry{2008--2013}{Senior Java Developer}{\textsc{Xerox}}{Austin, TX}{}
+     \cventry{2008--2013}{Senior Java Developer}
+     {\textsc{Xerox}}{Austin, TX}{}
      {\begin{itemize}
-         \item Involved in all phases of development lifecycle: Requirements, Design, Documentation, Implementation, Deployment, and Maintenance.
-         \item Responsibilities -- implementing client requirements, bug fixes, design, time line estimation, managing off shore team, and project planning.
-         \item Our product is a Java based web application that utilizes Structs 1.1, Spring Framework, JBoss AS, with Oracle 10g/11g as a backend.
+         \item Involved in all phases of development lifecycle: 
+               Requirements, Design, Documentation, Implementation, 
+               Deployment, and Maintenance.
+         \item Responsibilities -- implementing client requirements, bug 
+               fixes, design, time line estimation, managing off shore team, 
+               and project planning.
+         \item Our product is a Java based web application that utilizes 
+               Structs 1.1, Spring Framework, JBoss AS, with Oracle 10g/11g 
+               as a backend.
      \end{itemize}}
      
-     \cventry{2006--2007}{Java Developer}{\textsc{Texas Department of Family and Protective Services}}{Austin, TX}{}
+     \cventry{2006--2007}{Java Developer}
+     {\textsc{Texas Department of Family and Protective Services}}
+             {Austin, TX}{}
      {\begin{itemize}
-         \item Worked on enhancing a web based application called IMPACT for processing child abuse cases.
-         \item Used GRNDS framework for managing the control flow of the application.
+         \item Worked on enhancing a web based application called IMPACT 
+               for processing child abuse cases.
+         \item Used GRNDS framework for managing the control flow 
+               of the application.
          \item Developed Tuxedo Services in C to perform database operations.
          \item Configured WebLogic to connect to the Tuxedo services.
          \item Used Oracle 9i database as the back end.
@@ -154,30 +195,37 @@ on what I work on.}
   \subsection{Internship}
      \cventry{2005--2006}{Intern}{\textsc{I.B.M.}}{Rochester, MN}{}
      {\begin{itemize}
-         \item Worked as an entry level developer in maintaining C code and SQL for the AS-400 Servers.
+         \item Worked as an entry level developer in maintaining C code and 
+               SQL for the AS-400 Servers.
          \item Developed a database driven application using C and SQL.
      \end{itemize}}
   
   \subsection{Miscellaneous}
-     \cventry{2001--2004}{Website Developer}{\textsc{Arts and Gallery Department of Luther College}}
+     \cventry{2001--2004}{Website Developer}
+     {\textsc{Arts and Gallery Department of Luther College}}
      {Decorah, IA}{}
      {\begin{itemize}
-         \item Designed webpage using Dreamweaver and Photoshop for the Art Department.
+         \item Designed webpage using Dreamweaver and Photoshop for the 
+               Art Department.
      \end{itemize}}
 
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \section{Education}
-   \cventry{2008--2011}{Masters of Computer Science}{Texas State University}{San 
-               Marcos}{Texas}{}  % Arguments not required can be left empty
-   \cventry{2001--2006}{Bachelor of Computer Science}{Luther College}{Decorah}{Iowa}{}
-   \cventry{1999--2000}{Certificate in Web Centric Curriculum}{NIIT}{Kathmandu}{Nepal}{}
-   \cventry{1997--1998}{Diploma in Information and System Management}{Aptech Computer Education}{Kathmandu}{Nepal}{}
+   % Arguments not required can be left empty
+   \cventry{2008--2011}{Masters of Computer Science}
+           {Texas State University}{San Marcos}{Texas}{}
+   \cventry{2001--2006}{Bachelor of Computer Science}
+           {Luther College}{Decorah}{Iowa}{}
+   \cventry{1999--2000}{Certificate in Web Centric Curriculum}{NIIT}
+           {Kathmandu}{Nepal}{}
+   \cventry{1997--1998}{Diploma in Information and System Management}
+           {Aptech Computer Education}{Kathmandu}{Nepal}{}
 
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \end{document}

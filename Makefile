@@ -1,17 +1,13 @@
-#TEX = latex
 TEX = pdflatex
 
 default: paper
 
 paper:	
-	$(TEX) cv_7.tex; 
+	$(TEX) sagun_khatri.tex; 
 	# bibtex -min-crossrefs=100 resume; 
-	$(TEX) cv_7.tex; 
-	$(TEX) cv_7.tex; 
-	$(TEX) cv_7.tex; 
-
-#NOTE: If your margins appear incorrrect, verify that your machine defaults
-# to US letter paper. Many Linux distributions default ot A4 paper.
+	$(TEX) sagun_khatri.tex; 
+	$(TEX) sagun_khatri.tex; 
+	$(TEX) sagun_khatri.tex; 
 
 clean:
 	rm -f 	*.aux *.bbl *.blg *.dvi *.log *.ps *.lof *.lot *.gz *.toc *.pdf *.out
